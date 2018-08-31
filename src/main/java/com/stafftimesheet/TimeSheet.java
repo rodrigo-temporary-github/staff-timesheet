@@ -20,6 +20,34 @@ public class TimeSheet {
         this.satHours = satHours;
     }
 
+    public Integer getSunHours() {
+        return sunHours;
+    }
+
+    public Integer getMonHours() {
+        return monHours;
+    }
+
+    public Integer getTueHours() {
+        return tueHours;
+    }
+
+    public Integer getWedHours() {
+        return wedHours;
+    }
+
+    public Integer getThuHours() {
+        return thuHours;
+    }
+
+    public Integer getFriHours() {
+        return friHours;
+    }
+
+    public Integer getSatHours() {
+        return satHours;
+    }
+
     public Integer getTotalHours() {
         return sunHours + monHours + tueHours + wedHours + thuHours + friHours + satHours;
     }

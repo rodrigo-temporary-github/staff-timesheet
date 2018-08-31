@@ -16,7 +16,13 @@ public class Staff {
     }
 
     public Integer getWage() {
-        return hourlyRate * timesheet.getTotalHours();
+        return (timesheet.getSunHours() * (hourlyRate * 2)) +
+                (timesheet.getMonHours() * hourlyRate) +
+                (timesheet.getTueHours() * hourlyRate) +
+                (timesheet.getWedHours() * hourlyRate) +
+                (timesheet.getThuHours() * hourlyRate) +
+                (timesheet.getFriHours() * hourlyRate) +
+                (timesheet.getSatHours() * (hourlyRate + hourlyRate/2));
     }
 
     public void setTimesheet(Integer sunHours, Integer monHours, Integer tueHours, Integer wedHours, Integer thuHours, Integer friHours, Integer satHours) {
