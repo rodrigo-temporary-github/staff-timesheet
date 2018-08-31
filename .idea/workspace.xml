@@ -4,6 +4,8 @@
     <list default="true" id="23a0e476-f159-4e5d-9f18-027022751301" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stafftimesheet/TimeSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stafftimesheet/TimeSheet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -51,8 +53,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="507">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +65,8 @@
       <file leaf-file-name="StaffTimesheetService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/StaffTimesheetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="323">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
@@ -76,20 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Staff.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="195">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Staff.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="390">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -97,8 +99,23 @@
       <file leaf-file-name="TimeSheet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/TimeSheet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="404">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -416,10 +433,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/Timesheet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/StaffTimesheetService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/TimeSheet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/TimeSheet.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java" />
       </list>
     </option>
   </component>
@@ -580,7 +597,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32916668" />
       <window_info id="Capture Tool" order="2" />
@@ -608,7 +625,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -698,6 +715,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,34 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/TimeSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/StaffTimesheetService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="323">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
@@ -840,10 +848,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/TimeSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="390">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stafftimesheet/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
