@@ -8,6 +8,9 @@ public class StaffTimesheetService {
     private List<Staff> staffMembers = new ArrayList<>();
 
     public void addStaff(String name, Integer hourlyRate) {
+        if(hourlyRate > 50) {
+            hourlyRate = 50;
+        }
         staffMembers.add(new Staff(name, hourlyRate));
     }
 
