@@ -25,6 +25,10 @@ public class Staff {
                 (timesheet.getSatHours() * (hourlyRate + hourlyRate/2));
     }
 
+    public TimeSheet getTimesheet() {
+        return timesheet;
+    }
+
     public void setTimesheet(Integer sunHours, Integer monHours, Integer tueHours, Integer wedHours, Integer thuHours, Integer friHours, Integer satHours) {
         this.timesheet = new TimeSheet(sunHours, monHours, tueHours, wedHours, thuHours, friHours, satHours);
     }

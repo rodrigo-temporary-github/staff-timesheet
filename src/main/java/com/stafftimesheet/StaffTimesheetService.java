@@ -19,13 +19,13 @@ public class StaffTimesheetService {
         }
     }
 
-    public void retrieveIndividualTimesheet() {
-        //TODO
-    }
-
     public void retrieveAllTimesheets() {
-        for(int i = 0; i < staffMembers.size(); i++) {
-            System.out.println(staffMembers.get(i).toString());
+        if(staffMembers.size() == 0 || staffMembers.get(0).getTimesheet() == null) {
+            System.out.println("There are no timesheets yet!");
+        } else {
+            for(int i = 0; i < staffMembers.size(); i++) {
+                System.out.println(staffMembers.get(i).toString());
+            }
         }
     }
 

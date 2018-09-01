@@ -46,4 +46,19 @@ public class StaffTimesheetServiceTest {
 
         assertEquals(outContent.toString().trim(), expectedResult);
     }
+
+    @Test
+    public void shouldNotReturnTimesheetsIfThereIsntAny() {
+        String expectedResult = "There are no timesheets yet!";
+
+        StaffTimesheetService staffTimesheetService = new StaffTimesheetService();
+
+        // Required to test output message
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        staffTimesheetService.retrieveAllTimesheets();
+
+        assertEquals(outContent.toString().trim(), expectedResult);
+    }
 }
