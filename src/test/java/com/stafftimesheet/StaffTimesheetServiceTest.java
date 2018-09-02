@@ -17,6 +17,28 @@ public class StaffTimesheetServiceTest {
     }
 
     @Test
+    public void shouldApplyCorrectHourlyRateForSaturday() {
+        String expectedResult = "Staff{name='Rodrigo', hourlyRate=30, timesheet=TimeSheet{sunHours=0, monHours=0, tueHours=0, wedHours=0, thuHours=0, friHours=0, satHours=8, totalHours=8}, wage=360}";
+
+        StaffTimesheetService staffTimesheetService = new StaffTimesheetService();
+        staffTimesheetService.addStaff("Rodrigo", 30);
+        staffTimesheetService.addTimesheet("Rodrigo",0, 0, 0, 0, 0, 0, 8);
+
+        assertEquals(staffTimesheetService.retrieveAllTimesheets().description(), expectedResult);
+    }
+
+    @Test
+    public void shouldApplyCorrectHourlyRateForSunday() {
+        String expectedResult = "Staff{name='Rodrigo', hourlyRate=30, timesheet=TimeSheet{sunHours=8, monHours=0, tueHours=0, wedHours=0, thuHours=0, friHours=0, satHours=0, totalHours=8}, wage=480}";
+
+        StaffTimesheetService staffTimesheetService = new StaffTimesheetService();
+        staffTimesheetService.addStaff("Rodrigo", 30);
+        staffTimesheetService.addTimesheet("Rodrigo",8, 0, 0, 0, 0, 0, 0);
+
+        assertEquals(staffTimesheetService.retrieveAllTimesheets().description(), expectedResult);
+    }
+
+    @Test
     public void shouldReturnTimesheetForSingleStaffMember() {
         String expectedResult = "Staff{name='Rodrigo', hourlyRate=40, timesheet=TimeSheet{sunHours=0, monHours=8, tueHours=8, wedHours=8, thuHours=8, friHours=8, satHours=0, totalHours=40}, wage=1600}";
 
