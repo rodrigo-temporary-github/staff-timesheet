@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stafftimesheet.StaffTimesheetServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-09-02T09:14:04" hostname="Rodrigos-MacBook-Air.local" time="0.006">
+  <properties/>
+  <testcase name="shouldApplyCorrectHourlyRateForSaturday" classname="com.stafftimesheet.StaffTimesheetServiceTest" time="0.003"/>
+  <testcase name="shouldNotReturnTimesheetsIfThereIsntAny" classname="com.stafftimesheet.StaffTimesheetServiceTest" time="0.001"/>
+  <testcase name="shouldReturnTimesheetForMultipleStaffMembers" classname="com.stafftimesheet.StaffTimesheetServiceTest" time="0.0"/>
+  <testcase name="shouldApplyHourlyRateCapTo50" classname="com.stafftimesheet.StaffTimesheetServiceTest" time="0.0"/>
+  <testcase name="shouldReturnTimesheetForSingleStaffMember" classname="com.stafftimesheet.StaffTimesheetServiceTest" time="0.0"/>
+  <testcase name="shouldApplyCorrectHourlyRateForSunday" classname="com.stafftimesheet.StaffTimesheetServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
