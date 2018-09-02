@@ -33,7 +33,8 @@ public class App {
                         Integer.parseInt(inputValue.split(" ")[9])
                 );
             } else if(inputValue.equalsIgnoreCase("retrieve all timesheets")) {
-                service.retrieveAllTimesheets();
+                String timesheetSummary = service.retrieveAllTimesheets().description();
+                System.out.print(timesheetSummary);
             } else if("exit".equalsIgnoreCase(inputValue)) {
                 service.exit();
             } else {

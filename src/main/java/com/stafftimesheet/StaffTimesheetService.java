@@ -22,13 +22,11 @@ public class StaffTimesheetService {
         }
     }
 
-    public void retrieveAllTimesheets() {
+    public TimesheetSummary retrieveAllTimesheets() {
         if(staffMembers.size() == 0 || staffMembers.get(0).getTimesheet() == null) {
-            System.out.println("There are no timesheets yet!");
+            return new EmptyTimesheetSummary();
         } else {
-            for(int i = 0; i < staffMembers.size(); i++) {
-                System.out.println(staffMembers.get(i).toString());
-            }
+            return new StaffTimesheetSummary(staffMembers);
         }
     }
 
